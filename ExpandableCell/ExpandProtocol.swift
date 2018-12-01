@@ -70,15 +70,9 @@ extension ExpandProtocol {
         let oldCount = itemCount()
         self.isExpand.toggle()
         let newCount = itemCount()
-        if isExpand {
-            let offset = newCount - oldCount
-            let indexs = (1...offset).map { IndexPath(item: indexPath.row + $0, section: indexPath.section)}
-            return (true, indexs)
-        } else {
-            let offset = oldCount - newCount
-            let indexs = (1...offset).map { IndexPath(item: indexPath.row + $0, section: indexPath.section)}
-            return (false, indexs)
-        }
+        let offset = abs(newCount - oldCount)
+        let indexs = (1...offset).map { IndexPath(item: indexPath.row + $0, section: indexPath.section)}
+        return (isExpand, indexs)
     }
 
 }
