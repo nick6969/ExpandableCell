@@ -1,0 +1,12 @@
+disabled_rules: 
+  - trailing_whitespace
+
+opt_in_rules: 
+
+included:
+
+excluded:
+  - Pods
+  - Carthage
+
+line_length: 180

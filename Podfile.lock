@@ -1,0 +1,16 @@
+PODS:
+  - mLayout (0.1.4)
+
+DEPENDENCIES:
+  - mLayout (= 0.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - mLayout
+
+SPEC CHECKSUMS:
+  mLayout: 67261a1a466ed46e1f65716d317592b869f8272e
+
+PODFILE CHECKSUM: 2a7ebffdc1284ac0433eecfb589a0abfad53f589
+
+COCOAPODS: 1.5.3
