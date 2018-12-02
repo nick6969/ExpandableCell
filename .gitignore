@@ -66,8 +66,4 @@ fastlane/test_output
 
 #AppCode
 .idea/
-IDEWorkspaceChecks.plist
-xcschememanagement.plist
-WorkspaceSettings.xcsettings
-contents.xcworkspacedata
 Breakpoints_v2.xcbkptlist
